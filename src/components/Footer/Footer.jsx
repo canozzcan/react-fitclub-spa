@@ -11,14 +11,17 @@ const Footer = () => {
       <hr />
       <div className="footer">
         <div className="social-links">
-          <img src={Github} alt="" />
-          <img src={Instagram} alt="" />
-          <img src={Linkedin} alt="" />
+          <a href="https://github.com/canozzcan"><img src={Github} alt="" /></a>
+          <a href="https://www.instagram.com/"><img src={Instagram} alt="" /></a>
+          <a href="https://www.linkedin.com/in/canozcann/"><img src={Linkedin} alt="" /></a>
         </div>
         <div className="logo-f">
           <img src={Logo} alt="" />
         </div>
       </div>
+
+      <div className="blur blur-f-1"></div>
+      <div className="blur blur-f-2"></div>
     </div>
   );
 };
